@@ -1,9 +1,18 @@
 # Blinded Signatures
-`@gandlaf21/blind-signature` is a JavaScript Module implementing blind signatures using @noble/secp256k1 elliptic curve. 
+`@gandlaf21/blind-signature` is a JavaScript Module implementing blind signatures using `@noble/secp256k1` elliptic curve. 
 
 ## Usage 
 
+__install:__
+
+```shell
+npm i @gandlaf21/blind-signature
+```
+
+__use:__ 
+
 Take a look at this example for the complete flow:
+
 ```javascript
 import { SigningAuthority, BlindedMessage } from "@gandlaf21/blind-signature";
 //Mint(Alice)
@@ -35,6 +44,4 @@ const b_ = pointToHex(B_)
 
 //deserialize
 const B_dec: = hexToPoint(b_)
-
-
 ```
