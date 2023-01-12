@@ -1,6 +1,6 @@
-import { BlindedMessage } from "./model/BlindedMessage";
-import { SigningAuthority } from "./model/SigningAuthority";
-import { pointToHex,hexToPoint } from "./util/crypto";
+import { BlindedMessage } from "./model/BlindedMessage.js";
+import { SigningAuthority } from "./model/SigningAuthority.js";
+import { pointToHex,hexToPoint } from "./util/crypto.js";
 import { utils } from "@noble/secp256k1";
 
 const randomPrivateKey = utils.randomPrivateKey

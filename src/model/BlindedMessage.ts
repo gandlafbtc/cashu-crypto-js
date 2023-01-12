@@ -1,5 +1,5 @@
 import { Point, utils } from "@noble/secp256k1";
-import { hashToCurve,bytesToNumber } from "../util/crypto";
+import { hashToCurve,bytesToNumber } from "../util/crypto.js";
 
 /**
  * A class that represents a blinded message that can be sent to the mint

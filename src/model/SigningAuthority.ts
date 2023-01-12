@@ -1,5 +1,5 @@
 import {  Point, utils } from "@noble/secp256k1";
-import { hashToCurve,bytesToNumber } from "../util/crypto";
+import { hashToCurve,bytesToNumber } from "../util/crypto.js";
 class SigningAuthority {
     private privateKey: Uint8Array
     publicKey: Point
