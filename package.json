@@ -1,6 +1,6 @@
 {
   "name": "@gandlaf21/blind-signature",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/lib/es6/index.js",
   "type": "module",
