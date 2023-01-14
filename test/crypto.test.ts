@@ -1,5 +1,5 @@
 import { Point, utils } from "@noble/secp256k1"
-import { bytesToNumber, hexToNumber } from "../src/util/crypto"
+import { bytesToNumber, hexToNumber } from "../src/util/crypto.js"
 
 describe('test hex to number', () => {
     test('hex string', () => {

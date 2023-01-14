@@ -1,7 +1,7 @@
 import { Point } from "@noble/secp256k1";
-import { SigningAuthority } from "../src/model/SigningAuthority";
-import { BlindedMessage } from "../src/model/BlindedMessage";
-import { hexToPoint, pointToHex } from "../src/util/crypto";
+import { SigningAuthority } from "../src/model/SigningAuthority.js";
+import { BlindedMessage } from "../src/model/BlindedMessage.js";
+import { hexToPoint, pointToHex } from "../src/util/crypto.js";
 describe('test blind signing workflow', () => {
     test('Test with 2 messages', async () => {
         //Mint(Alice)
