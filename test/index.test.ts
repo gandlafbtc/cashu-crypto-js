@@ -13,7 +13,6 @@ describe('test blind signing workflow', () => {
 
         const message2: BlindedMessage = new BlindedMessage()
         const B_ : Point = await message1.createBlindedMessageFromString("secret")
-
         const B2_ : Point = await message2.createBlindedMessageFromString("secret2")
         const b2_ : string = pointToHex(B2_)
 
