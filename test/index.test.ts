@@ -35,7 +35,7 @@ describe('test blind signing workflow', () => {
 
 
 describe('test blind signing workflow', () => {
-    test('Test with encoding', async () => {
+    test('Test without encoding', async () => {
         //Mint(Alice)
         const mint: SigningAuthority = new SigningAuthority();
 
