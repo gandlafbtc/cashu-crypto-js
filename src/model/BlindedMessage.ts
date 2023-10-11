@@ -5,8 +5,8 @@ import { hashToCurve,bytesToNumber } from "../util/crypto.js";
  * A class that represents a blinded message that can be sent to the mint
  */
 class BlindedMessage {
-    private Y: Point;
-    private r: bigint;
+    Y: Point;
+    r: bigint;
     private rG: Point;
     private B_: Point;
     private secret: Uint8Array;
